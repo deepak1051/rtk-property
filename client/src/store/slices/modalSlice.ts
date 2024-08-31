@@ -12,7 +12,7 @@ interface ModalInitalState {
 
 const initialState: ModalInitalState = {
   type: ModalType.SUCCESS,
-  open: true,
+  open: false,
 };
 
 const modalSlice = createSlice({
